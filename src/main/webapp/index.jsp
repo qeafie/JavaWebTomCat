@@ -14,7 +14,7 @@
             <input type="password" name="password" id="password" placeholder="password">
             <br/>
             <button type="submit" id="login_button">Sign in</button>
-            <button type="button" id="register_button">Register</button>
+            <button type="submit" id="register_button">Register</button>
 
         </form>
     </body>

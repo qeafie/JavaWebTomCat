@@ -21,4 +21,9 @@ public enum TableFields {
     public String getParametr() {
         return parametr;
     }
+
+    @Override
+    public String toString() {
+        return  parametr;
+    }
 }

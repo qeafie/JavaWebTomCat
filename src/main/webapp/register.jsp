@@ -13,13 +13,13 @@
 <body>
     <h1>Registration Form</h1>
     <br>
-    <form action="" method="post" name="register_form">
-        <input type="text" name="reg_form" id="reg_name" placeholder="your name">
-        <input type="text" name="reg_form" id="reg_surname" placeholder="your surname">
-        <input type="email" name="reg_form" id="reg_email" placeholder="your email">
-        <input type="password" name="reg_form" id="reg_password" placeholder="your password">
-        <input type="date" name="reg_form" id="reg_birthday">
-        <button type="submit" name="reg_form">Register</button>
+    <form action="${pageContext.request.contextPath}/RegisterServlet" method="post" name="register_form">
+        <label for="reg_name"></label><input type="text" name="reg_name" id="reg_name" placeholder="your name">
+        <label for="reg_surname"></label><input type="text" name="reg_surname" id="reg_surname" placeholder="your surname">
+        <label for="reg_email"></label><input type="email" name="reg_email" id="reg_email" placeholder="your email">
+        <label for="reg_password"></label><input type="password" name="reg_password" id="reg_password" placeholder="your password">
+        <label for="reg_birthday"></label><input type="date" name="reg_birthday" id="reg_birthday">
+        <button type="submit" name="reg_form" onclick="">Register</button>
     </form>
 </body>
 </html>
